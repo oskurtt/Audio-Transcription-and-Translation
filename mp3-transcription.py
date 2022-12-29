@@ -24,4 +24,5 @@ response_standard_mp3 = speech_client.recognize(
     config=config_mp3,
     audio=audio_mp3
 )
-print(response_standard_mp3)
+
+print(response_standard_mp3.results[0].alternatives[0].transcript)

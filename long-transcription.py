@@ -29,7 +29,7 @@ operation = speech_client.long_running_recognize(
     audio=long_audi_wav
 )
 response = operation.result(timeout=90)
-print(response)
+#print(response)
 
 for result in response.results:
     print(result.alternatives[0].transcript)

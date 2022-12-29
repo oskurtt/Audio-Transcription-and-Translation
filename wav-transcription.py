@@ -25,5 +25,4 @@ response_standard_wav = speech_client.recognize(
    config=config_wav,
    audio=audio_wav
 )
-
-print(response_standard_wav)
+print(response_standard_wav.results[0].alternatives[0].transcript)
