@@ -1,1 +1,0 @@
-https://learndataanalysis.org/source-code-getting-started-with-google-cloud-speech-to-text-api-in-python/
